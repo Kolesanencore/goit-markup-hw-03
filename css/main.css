@@ -60,13 +60,15 @@ html,
 }
 
 .container {
+    max-width: 1200px;
     display: flex;
-    align-items: center;
-    width: 1200px;
-    height: 80px;
-    margin: auto;
-    padding: auto;
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
 /* header logo */
 
 .logo ,
@@ -79,10 +81,12 @@ html,
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+   
 }
 
 .logo {
-    
+    padding-top: 33px;
+        padding-bottom: 33px;
 }
 
 .span {
@@ -168,16 +172,17 @@ html,
 /* section hero */
 
 .hero {
-    max-width: 1600px;
+    
     background-color: var(--background-black-color);
 }
 
 .hero-container {
-    width: 696px;
-    height: 200px;
-    padding: 195px 452px 200px 452px;
+    width: 1170px;
+    height: 386px;
     text-align: center;
     gap: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-title {
@@ -188,6 +193,7 @@ html,
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+
 /* hero button */
 
 .button {
@@ -207,16 +213,17 @@ html,
     cursor: pointer;
     }
 
-    .button:hover, 
-    .button:focus {
-      background-color: var(--btn-hover-color);
-    }
+.button:hover, 
+.button:focus {
+    background-color: var(--btn-hover-color);
+}
     
 /* section future */
 
  .features {
-   
-    margin: 94px 215px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
  }
 
  .hidden-title {
@@ -229,29 +236,33 @@ html,
  }
 
  .section {
-    margin-left: 215px;
-    margin-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.section-container {
+    width: 1170px;
+    height: 386px;
+    margin-left: auto;
+    margin-right: auto;
+}
  .section-cards {
     display: flex;
     gap: 30px;
  }
  
  .section-team {
-    width: 1600px;
-    height: 648px;
     background: var(--background-second-color);
-    }
+}
 
 .team-title {
     padding-top: 92px;
 }
 
  .team-cards {
-    width: 1170px;
-    height: 368px;
-    padding: 50px 215px 94px 215px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     gap: 30px;
     text-align: center;
@@ -267,8 +278,6 @@ html,
  }
 
  .card {
-    width: 270px;
-    height: 368px;
     background: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -277,27 +286,32 @@ html,
  .footer {
     margin-top: 48px;
     background: var(--background-black-color);
+ }
+
+ .footer-container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
  }
 
  .footer-logo {
-    padding-left: 215px;
-    padding-top: 48px;
- }
-
- .footer-address {
-    gap: 9px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    padding-left: 215px;
-    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: var(--primary-white-color);
  }
 
  .address {
+    width: 231px;
+    margin-bottom: 60px;
+    width: 231px;
     color: var(--primary-white-color);
     font-style: normal;
+    gap: 9px;
  }
 
  /* portfolio css */
@@ -305,7 +319,8 @@ html,
  .portfolio {
     width: 1170px;
     height: 1360px;
-    margin: 94px 215px;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .portfolio-menu {
@@ -314,9 +329,7 @@ html,
     justify-content: center;
 }
 
-.filter-btn {
-    width: 130px;
-    height: 38px;
+.filter-btn { 
     background: var(--background-second-color);
     border-radius: 4px;
     border: none;
@@ -329,15 +342,13 @@ html,
 }
 
 .filter-btn.current {
-    width: 73px;
-    height: 38px;
+    
 }
 
 .filter-btn:hover, 
 .filter-btn:focus {
     background-color:  var(--accent-color);
-    color: var(--primary-white-color);
-   
+    color: var(--primary-white-color); 
 }
 
 /* portfolio main box */ 
@@ -350,8 +361,6 @@ html,
 }
 
 .box {
-    width: 370px;
-    height: 404px;
     background: var(--background-second-color);  
 }
 

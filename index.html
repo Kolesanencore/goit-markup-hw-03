@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,10 +14,10 @@
   <body>
       <header class="header">   
         <div class="container">
-          <a class="logo logo-footer" href="#"><span class="span">Web</span>Studio</a>  
+          <a class="logo logo-footer" href="./index.html"><span class="span">Web</span>Studio</a>  
           <nav> 
             <ul class="site-nav list">
-              <li ><a href="#" class="link current">Студія</a></li>
+              <li ><a href="./index.html" class="link current">Студія</a></li>
               <li>
                 <a href="./portfolio.html" class="link">Портфоліо</a>
               </li>
@@ -69,6 +70,7 @@
           </ul>
         </section>
         <section class="section">
+          <div class="section-container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="section-cards">
             <li>
@@ -99,6 +101,7 @@
               />
             </li>
           </ul>
+          </div>
         </section>
         <section class="section-team">
           <h2 class="team-title">Наша команда</h2>
@@ -149,16 +152,16 @@
             </li>
           </ul>
         </section>
-        <footer class="footer">       
-            <a class="footer-logo" href="#"><span class="span">Web</span>Studio</a>
-            <div class="footer-address">
+        <footer class="footer"> 
+          <div class="footer-container">      
+            <a class="footer-logo" href="./index.html"><span class="span">Web</span>Studio</a>         
               <address class="address">м. Київ, пр-т Лесі Українки, 26
               <ul class="footer-contacts">                      
                 <li><a class="item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="item" href="tel:+380961111111">+38 096 111 11 11</a></li>
               </ul> 
-            </address>  
-            </div>     
+            </address>            
+          </div>     
         </footer>
       </main>
   </body>
