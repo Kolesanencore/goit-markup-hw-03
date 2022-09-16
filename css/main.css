@@ -395,17 +395,14 @@ body {
 
 .work-title {
   color: var(--title-text-color);
-  padding-left: 24px;
-  padding-top: 20px;
 }
 
 .filter-descr {
-  padding-left: 24px;
-  padding-bottom: 20px;
   margin-top: 4px;
 }
 
 .box-text {
+  padding: 20px 24px;
   border-left: 1px solid var(--border-colour);
   border-right: 1px solid var(--border-colour);
   border-bottom: 1px solid var(--border-colour);
