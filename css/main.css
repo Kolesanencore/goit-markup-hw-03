@@ -76,10 +76,13 @@ body {
 
 /* header */
 
+.header {
+  border-bottom: solid var(--border-colour);
+}
+
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: solid var(--border-colour);
 }
 
 /* header logo */
@@ -137,6 +140,17 @@ body {
 
 .site-nav .link.current {
   color: var(--accent-color);
+}
+
+.current::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: ;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* header contacts */
@@ -197,6 +211,7 @@ body {
 .hero-container {
   text-align: center;
   padding: 200px 237px;
+  background-image: ;
 }
 
 .hero-title {
@@ -259,7 +274,7 @@ body {
 }
 
 .section-cards .item + .item {
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 /* Section team */
@@ -279,7 +294,7 @@ body {
 }
 
 .team-cards > .card + .card {
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .teammate {
